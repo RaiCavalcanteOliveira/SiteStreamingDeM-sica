@@ -1,0 +1,132 @@
+{
+    "ladygaga": {
+        "cantor": "Lady Gaga",
+        "imagem": "<img src='imagens/lady-Gaga.png' alt='' width='100%'>",
+        "profissao": "Cantora-compositora",
+        "idade": "36 anos"
+    },
+    "item1": {
+        "musicname": "Judas",
+        "cantor": "Lady Gaga",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "imagem": "    <img src='imagens/judass.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/lady2.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Lady_Gaga_-_Judas_(ColdMP3.com).mp3' class='audioo' type=' audio/mp3'  autoplay='autoplay' controls  ></audio>"
+    },
+    "item2": {
+        "musicname": "<h3>Thank you Next<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Ariana</h4>",
+        "imagem": "<img src='imagens/Positions.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/Positions.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item3": {
+        "musicname": "<h3>Wake me up<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Avicii</h4>",
+        "imagem": "<img src='imagens/wakemeup.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/wakemeup.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item4": {
+        "musicname": "<h3>Viva la vida<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Coldplay</h4>",
+        "imagem": "<img src='imagens/vivalavida.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/vivalavida.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item5": {
+        "musicname": "<h3>Blinding Lights<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>The Weekend</h4>",
+        "imagem": "<img src='imagens/blinding.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/blinding.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item6": {
+        "musicname": "<h3>Panini<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Lil Nas X</h4>",
+        "imagem": "<img src='imagens/panini.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/panini.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item7": {
+        "musicname": "<h3>Happier<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Marshmello</h4>",
+        "imagem": "<img src='imagens/happier.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/happier.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "item8": {
+        "musicname": "<h3>Ela partiu<h3>",
+        "descricao": "Sucesso mundial reconhecido musicalmente e comercialmente",
+        "cantor": "<h4>Tim Maia</h4>",
+        "imagem": "<img src='imagens/partiu.jpg' alt='' width='180px' height='170px'>",
+        "imagem2": "<img src='imagens/partiu.jpg' alt='' width='100%'height='300px' class='imagemmusicanasobre'>",
+        "audio": "<audio  src='media/Ariana-Grande-thank-u-next.mp3'  autoplay='autoplay' controls></audio>"
+    },
+
+    "ladygagaaplause": {
+        "imagem": "<img src='imagens/Capa_de_Applause.jpg' alt='' width='180px' height='170px'>",
+        "musicname": "Applause",
+        "cantor": "Lady Gaga"
+    },
+    "ladygagajustdance": {
+        "imagem": "<img src='imagens/justdance.png' alt='' width='180px' height='170px'>",
+        "musicname": "Just Dance",
+        "cantor": "Lady Gaga"
+    },
+    "ladygagabadromance": {
+        "imagem": "<img src='imagens/badromance.jpg' alt='' width='180px' height='170px'>",
+        "musicname": "Bad Romance",
+        "cantor": "Lady Gaga"
+    },
+    "ladygagastupidlove": {
+        "imagem":"<img src='imagens/stupidlove.jpg' alt='' width='180px' height='170px'>",
+        "musicname": "Stupid Love",
+        "cantor": "Lady Gaga"
+        
+    },
+
+    "ladygagashallownow": {
+         "imagem": "    <img src='imagens/shallownow.jpg' alt='' width='180px' height='170px'>",
+         "musicname" :"Shallow",
+         "cantor": "Lady Gaga"
+    },
+    "ladygagapokerface": {
+         "imagem": "<img src='imagens/pokerface.jpg' alt=''  width='180px' height='170px'>",
+         "musicname": "Poker Face",
+         "cantor": "Lady Gaga"
+    },
+    "plano1": {
+        "imagem": "<img src='imagens/mulheresctmusica.jpg' alt='' id='mulherescmfone'>",
+        "valoremdolar": 20,
+        "descricao": "Assine e ganhe um fone de ouvido de brinde",
+        "duracao": "2 meses",
+        "botao": "<button type='button' class='btn btn-primary' onclick='redirecionaparapaginacep()'>Assinar</button>"
+    },
+    "plano2": {
+        "imagem": "<img src='imagens/mulheresctmusica.jpg' alt='' id='mulherescmfone'>",
+        "valoremdolar": 45,
+        "descricao": "Assine e ganhe um headset de brinde",
+        "duracao": "6 meses",
+        "botao": "<button type='button' class='btn btn-primary' onclick='redirecionaparapaginacep()'>Assinar</button>"
+    },
+    "plano3": {
+        "imagem": "<img src='imagens/mulheresctmusica.jpg' alt='' id='mulherescmfone'>",
+        "valoremdolar": 80,
+        "descricao": "Assine e ganhe uma camiseta de banda",
+        "duracao": "12 meses",
+        "botao": "<button type='button' class='btn btn-primary' onclick='redirecionaparapaginacep()'>Assinar</button>"
+    }
+}

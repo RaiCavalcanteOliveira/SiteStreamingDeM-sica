@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Dolar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="corpo">
+    <header class="container-fluid" id="cabeca">
+        <div class="row justify-content-center" id="logo">
+            <img src="imagens/logoDelta.png" alt="" width="300px">
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                    <form class="form-inline my-2 my-lg-0 mr-5">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item active mr-2">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#">Biblioteca</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="planos.html">Planos</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container-fluid" id="navbarr">
+        <ul id="musicas">
+            <div class="row" id="pesquisa">
+                <li><img src="imagens/pesquisa-removebg-preview.png" alt="" width="40px"></li>
+                <li class="pesqcaixa"><input type="search" placeholder="pesquisar"></li>
+            </div>
+            <div class="row" id="inibli">
+                <li><a href="#" id="musicass">Início</a></li>
+                <li><a href="#" id="musicass">Biblioteca</a></li>
+                <li><a href="planos.html" id="musicass">Planos</a></li>
+            </div>
+        </ul>
+
+    </div>
+
+
+    <main class="container" id="meio">
+        <div class="row">
+            <h2 class="musicasmaistocadas" id="musicasmaistocadas">Músicas mais Tocadas</h2>
+        </div>
+        <div class="row" id="linha1">
+            <div onmouseover="passaaqui()" class="col" id="column1">
+
+                <div id="imagem"></div>
+                <div id="nomemusica"></div>
+                <div id="descricao"></div>
+                <div id="valoremdolar"></div>
+                <div id="preco1"></div>
+                <div id="comprar1"></div>
+            </div>
+
+            <div onmouseover="passaaqui2()" class="col" id="column2">
+
+                <div id="imagem2"></div>
+                <div id="nomemusica2"></div>
+                <div id="descricao2"></div>
+                <div id="valoremdolar2"></div>
+                <div id="preco2"></div>
+                <div id="comprar2"></div>
+            </div>
+
+            <div class="col">
+
+                <div id="imagem3"></div>
+                <div id="nomemusica3"></div>
+                <div id="descricao3"></div>
+                <div id="valoremdolar3"></div>
+                <div id="preco3"></div>
+                <div id="comprar3"></div>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="linha2">
+            <div class="col">
+
+                <div id="imagem4"></div>
+                <div id="nomemusica4"></div>
+                <div id="descricao4"></div>
+                <div id="valoremdolar4"></div>
+                <div id="preco4"></div>
+                <div id="comprar4"></div>
+            </div>
+
+            <div class="col">
+
+                <div id="imagem5"></div>
+                <div id="nomemusica5"></div>
+                <div id="descricao5"></div>
+                <div id="valoremdolar5"></div>
+                <div id="preco5"></div>
+                <div id="comprar5"></div>
+            </div>
+
+            <div class="col">
+
+                <div id="imagem6"></div>
+                <div id="nomemusica6"></div>
+                <div id="descricao6"></div>
+                <div id="valoremdolar6"></div>
+                <div id="preco6"></div>
+                <div id="comprar6"></div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer id="footer">
+        <h1>Todos os direitos reservados a Rai e Victor</h1>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+
+
+</body>
+
+</html>

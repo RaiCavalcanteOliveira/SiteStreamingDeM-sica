@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Dolar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="corpo">
+    <header class="container-fluid" id="cabeca">
+        <div class="row justify-content-center" id="logo">
+            <img src="imagens/logoDelta.png" alt="" width="300px">
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                    <form class="form-inline my-2 my-lg-0 mr-5">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar"
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item active mr-2">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#">Biblioteca</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="planos.html">Planos</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <main class="container" id="meio">
+        <div class="row d-flex justify-content-center cep">
+            <fieldset>
+                <h2 class="tituloendereco">Endereço</h2>
+                <section class="row" class="">
+                    <div class="col">
+                        <p class="digite">Digite seu CEP logo abaixo para receber o seu brinde:</p>
+                        <div>
+                            <label for="cep">CEP:</label>
+                            <br>
+                            <input type="text" id="cep" autocomplete="off" class="inputinho">
+                        </div>
+                        <br>
+                        <div class="rua">
+                            <label for="rua">Rua:</label>
+                            <br>
+                            <input type="text" id="rua" readonly class="inputinho">
+                        </div>
+                        <br>
+
+                        <div>
+                            <label for="numero">Número:</label>
+                            <br>
+                            <input type="text" id="numero" class="inputinho">
+                        </div>
+                        <br>
+
+
+                        <div>
+                            <label for="bairro">Bairro:</label>
+                            <br>
+                            <input type="text" id="bairro" readonly class="inputinho">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cidade">Cidade:</label>
+                            <br>
+                            <input type="text" id="cidade" readonly class="inputinho">
+                        </div>
+                        <br>
+
+                        <div>
+                            <label for="estado">Estado:</label>
+                            <br>
+                            <input type="text" id="estado" readonly class="inputinho">
+                        </div>
+                        <br>
+                        <br>
+                        <div id="imgonibus">
+
+                        </div>
+                        <div>
+                            <button onclick="tabela()" type="button" class="btn btn-primary regiao">Consultar Regiões</button>
+                       
+
+                    </div>
+
+                    </div>
+             
+
+
+
+
+                </section>
+                <hr>
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <h1>Todos os direitos reservados a Rai e Victor</h1>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <script>
+        const preencherFormulario = (endereco) => {
+            document.getElementById("rua").value = endereco.logradouro;
+            document.getElementById("bairro").value = endereco.bairro;
+            document.getElementById("cidade").value = endereco.localidade;
+            document.getElementById("estado").value = endereco.uf;
+
+
+
+
+            //parte do frete
+            var estado = document.getElementById("estado").value;
+
+
+            switch (estado) {
+                case "SP":
+                case "MG":
+                case "RJ":
+                case "ES":
+                    document.getElementById('imgonibus').innerHTML = "<p> O frete para a região sudeste custará: " + "R$"+25+",00" + "</p>";
+                    break;
+
+                case "MA":
+                case "PI":
+                case "CE":
+                case "RN":
+                case "PB":
+                case "PE":
+                case "AL":
+                case "SE":
+                case "BA":
+                    document.getElementById('imgonibus').innerHTML = "<p> O frete para a região norte custará: " + "R$"+ 15+",00" + "</p>";
+                    break;
+
+                case "GO":
+                case "MT":
+                case "MS":
+                case "DF":
+                    document.getElementById('imgonibus').innerHTML = "<p> O frete para a região centro-oeste custará: " + "R$"+ 15+",00" + "</p>";
+                    break;
+
+                case "AM":
+                case "PA":
+                case "AC":
+                case "RO":
+                case "RR":
+                case "AP":
+                case "TO":
+                    document.getElementById('imgonibus').innerHTML = "<p> O frete para a região nordeste custará: " + "R$"+ 20+",00" + "</p>";
+                    break;
+
+                case "PR":
+                case "SC":
+                case "RS":
+                    document.getElementById('imgonibus').innerHTML = "<p> O frete para a região sul custará: "+ "R$" + 50+",00" + "</p>";
+                    break;
+                default:
+                    document.getElementById('imgonibus').innerHTML = "";
+                    break;
+
+            }
+        }
+
+
+
+        //autopreenchimento
+        const cepValido = (cep) => {
+            if (cep.length == 8) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        //buscar API
+        //Com async e await podemos trabalhar com código assíncrono em um estilo mais parecido com o bom e velho código síncrono.
+        const pesquisarCep = async () => {
+            const cep = document.getElementById("cep").value;
+            const url = `https://viacep.com.br/ws/${cep}/json/`;
+            if (cepValido(cep)) {
+                const dados = await fetch(url);
+                const endereco = await dados.json();
+                preencherFormulario(endereco);
+            }
+        }
+
+
+
+
+
+        document.getElementById("cep").addEventListener("focusout", pesquisarCep);
+    </script>
+
+</body>
+
+</html>

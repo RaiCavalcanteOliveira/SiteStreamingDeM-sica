@@ -1,0 +1,428 @@
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Candal&family=Chivo+Mono:wght@100&family=Climate+Crisis&family=Coda+Caption:wght@800&family=Lalezar&family=Poppins:wght@200&family=Roboto&family=Tilt+Warp&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+ * {
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+ }
+
+
+ h1 {
+
+     text-align: center;
+     color: white
+ }
+
+ .valorreal {
+     color: blue;
+ }
+
+ .valordolar {
+     color: green;
+ }
+
+ img {}
+
+ body {
+     background-color: black;
+
+
+ }
+
+ .container {
+     background-color: #361347;
+
+
+ }
+
+ .row {}
+
+ header {
+     background: rgb(119, 53, 5);
+     background: linear-gradient(90deg, rgba(119, 53, 5, 1) 0%, rgba(189, 89, 15, 1) 47%, rgba(207, 175, 11, 1) 100%);
+ }
+
+ h1 {
+     color: white;
+     font-family: 'Tilt Warp', cursive;
+
+ }
+
+ h2 {
+     font-family: 'Tilt Warp', cursive;
+ }
+
+ h3 {}
+
+ body {
+     background-color: black;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+
+ }
+
+ .col {
+     margin: 50px;
+
+
+     padding-top: 10px;
+     background-color: #2d103b;
+
+    
+ 
+ 
+ }
+
+
+
+ .col-sm {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 2%;
+     border-radius: 10px;
+     margin: 30px;
+     text-align: justify;
+     background-color: #2d103b;
+   
+ }
+
+ .col-sm:hover {
+     background-color: #773f92;
+     cursor: pointer;
+  
+ }
+
+
+
+ footer {
+     background: rgb(119, 53, 5);
+     background: linear-gradient(90deg, rgba(119, 53, 5, 1) 0%, rgba(189, 89, 15, 1) 47%, rgba(207, 175, 11, 1) 100%);
+ }
+
+ p {
+   
+ }
+
+
+
+ .musicas {
+     color: white;
+ }
+
+ a {
+     background-color: #3119c7;
+     border-radius: 5px;
+     color: white;
+     border: solid white;
+
+ }
+
+ #playmusicaa {
+     cursor: pointer;
+     position: absolute;
+     margin-top: -210px;
+     margin-left: 34px;
+ }
+
+
+
+ #enblobasobrepoe {
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ #sobrepoe {
+     background-color: #1C1C1C;
+     height: 600px;
+     position: absolute;
+     width: 480px;
+     top: 30%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 15px;
+     gap: 10px;
+     margin: 0 auto;
+     box-shadow: inset 0 0 1em rgb(114, 110, 110), 0 0 1em rgb(255, 255, 255);
+ }
+
+
+
+
+
+ #errado {
+     position: absolute;
+     margin-left: 164px;
+     margin-top: -25px;
+     cursor: pointer;
+
+ }
+
+ #errado:hover {
+     background-color: white;
+ }
+
+ .imagemmusicanasobre {
+     border-radius: 30px;
+     padding: 20px;
+ }
+
+ .musicasmaistocadas {
+     margin: 0 auto;
+     padding-top: 20px;
+     font-family: 'Tilt Warp', cursive;
+ }
+
+
+
+ input {
+     border-radius: 15px;
+     width: 200px;
+ }
+
+ #pesquisa {
+     padding-top: 10px;
+ }
+
+ #inibli {
+     display: flex;
+     gap: 15px;
+ }
+
+ #cantores {
+     cursor: pointer;
+     background-color: red;
+ }
+
+
+ .col-4 {
+     border-radius: 10px;
+
+     padding-top: 10px;
+     background: #ff6f9c;
+
+     color: black;
+
+
+
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ button {
+     background-color: rgb(20, 34, 160);
+     color: white;
+ }
+
+ #mulherescmfone {
+
+     width: 90%;
+     margin: 0 auto;
+     padding: 10px;
+ }
+
+ #englobaplanos {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2px;
+     justify-content: center;
+ }
+
+ .planos {
+     margin: 25px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 10px;
+     background-color: #ffb6c1;
+     gap: 5px;
+     text-align: justify;
+     width: 315px;
+     color: #ffffff;
+     border-radius: 10px;
+     box-shadow: 10px 2px 20px 4px #ffffff;
+     font-family: 'Merriweather', serif;
+     justify-content: center;
+     font-size: 18px;
+
+ }
+
+
+ .introducaoplanos {
+     background: rgb(119, 53, 5);
+     background: linear-gradient(90deg, rgba(119, 53, 5, 1) 0%, rgba(189, 89, 15, 1) 47%, rgba(207, 175, 11, 1) 100%);
+     font-size: 30px;
+
+
+ }
+
+ .frase {
+     width: 50%;
+     margin: 0 auto;
+     color: #ffffff;
+ }
+
+ .tituloendereco {
+     text-align: center;
+ }
+
+
+
+ .inputinho {
+    width: 300px;
+ }
+
+ .enblobadesc {
+     padding-left: 30px;
+     padding-right: 46px;
+ }
+
+
+ #linha4plano1,
+ #linha4plano2,
+ #linha4plano3 {
+     text-align: center;
+ }
+
+ .botoes {
+     text-align: center;
+ }
+
+ .cep {
+     font-family: 'Tilt Warp', cursive;
+     
+ }
+
+ #cabeca {
+     margin: 0 auto;
+ }
+
+ .navbar {
+     background-color: #1C1C1C;
+     width: 100%;
+     padding-left: 22%;
+
+ }
+
+
+ #englobamenu {}
+
+
+
+ .nav-link {
+     background-color: #1C1C1C;
+     border: none;
+     color: white;
+     font-size: 25px;
+ }
+
+
+ .btn {
+     font-size: 20px;
+
+ }
+
+ .form-control {
+     width: 280px;
+
+ }
+
+ .configuracaixa {
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     gap: 10px;
+
+ }
+
+ h5 {
+ 
+     padding-top: 8px;
+ }
+
+ h6 {
+   padding-bottom: 8px;
+   color: gray;
+ }
+
+ .div3{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 30px;
+    
+    
+  
+    background-color: #2d103b;
+ }
+
+#dolar{
+    color: darkblue;
+}
+
+
+#real{
+    color: green;
+}
+
+
+#logo{
+    padding-right: 1000px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.tabela{
+    border-radius: 15px;
+    border: solid rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(46, 6, 192);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.trr{
+  
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+   
+}
+
+.meioo{
+  padding-top: 200px;
+  padding-bottom: 350px;
+}
+
+
+.frete{
+    text-align: center;
+}
+
+.bordatd{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.consulta{
+    width: 200px;
+    border-radius: 15px;
+    border:  solid white;
+    background-color: rgb(27, 240, 255);
+}
+
+
+.regiao{
+    margin: 0;
+    margin-bottom: 10px;
+}
