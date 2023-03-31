@@ -354,7 +354,7 @@ fetch('https://economia.awesomeapi.com.br/json/last/USD-BRL').then(resposta => {
 
             var calculop1 = corpo.plano1.valoremdolar * economia.USDBRL.bid;
             var exibecalculop1 = document.getElementById('exibecalculop1')
-            exibecalculop1.innerHTML = "Valor em dólar: " + "<span id='real'>" + calculop1.toFixed(2) + "</span>";
+            exibecalculop1.innerHTML = "Valor em real: " + "<span id='real'>" + calculop1.toFixed(2) + "</span>";
 
             //plano 2 logo abaixo
             var linha1plano2 = document.getElementById('linha1plano2')
@@ -370,7 +370,7 @@ fetch('https://economia.awesomeapi.com.br/json/last/USD-BRL').then(resposta => {
 
             var calculop2 = corpo.plano2.valoremdolar * economia.USDBRL.bid;
             var exibecalculop2 = document.getElementById('exibecalculop2')
-            exibecalculop2.innerHTML = "Valor em dólar: " + "<span id='real'>" + calculop2.toFixed(2) + "</span>";
+            exibecalculop2.innerHTML = "Valor em real: " + "<span id='real'>" + calculop2.toFixed(2) + "</span>";
 
             //plano3 logo abaixo
             var linha1plano3 = document.getElementById('linha1plano3')
@@ -387,7 +387,7 @@ fetch('https://economia.awesomeapi.com.br/json/last/USD-BRL').then(resposta => {
 
             var calculop3 = corpo.plano3.valoremdolar * economia.USDBRL.bid;
             var exibecalculop3 = document.getElementById('exibecalculop3')
-            exibecalculop3.innerHTML = "Valor em dólar: " + "<span id='real'>" + calculop3.toFixed(2) + "</span>";
+            exibecalculop3.innerHTML = "Valor em real: " + "<span id='real'>" + calculop3.toFixed(2) + "</span>";
 
 
 
